@@ -14,5 +14,6 @@ public interface UserRepository extends JpaRepository <User,Long> {
     Boolean existsByUsername(String username);
     //help enforce unique email addresses.
     Boolean existsByEmail(String email);
+    void deleteByUsername(String username);
 }
 //JpaRepository extends the basic CRUD operations from CrudRepository and adds more advanced capabilities
