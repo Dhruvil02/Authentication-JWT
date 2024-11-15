@@ -25,7 +25,7 @@ public class UserService {
 
         return users;
     }
-
+    //Ensures Transaction commited succesfully
     @Transactional
     public boolean deleteUserByUsername (String username){
         if(userRepository.existsByUsername(username)){
