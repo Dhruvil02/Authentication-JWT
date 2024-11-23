@@ -6,4 +6,4 @@ Install dependencies using **mvn clean install**
 
 Create Database **CREATE DATABASE taskdb;** in MYSQL CLI 
 
-Run application with **mvn spring-boot:ru**n
+Run application with **mvn spring-boot:run**
